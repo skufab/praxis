@@ -5,6 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privatpraxis für Psychotherapie – Elena Plastrotmann</title>
 <meta name="description" content="Privatpraxis für tiefenpsychologisch fundierte Psychotherapie von Elena Plastrotmann in Lohmar. Für Privatversicherte, Beihilfeberechtigte, Selbstzahlende und gesetzlich Versicherte im Rahmen der Elternzeitvertretung.">
+<link rel="icon" type="image/png" href="assets/logo.png">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -16,7 +17,10 @@
 </div>
 
 <nav class="site-nav">
-  <a class="wordmark" href="#top">Privatpraxis für Psychotherapie<br><em>Elena Plastrotmann</em></a>
+  <a class="wordmark" href="#top">
+    <img class="logo-mark" src="assets/logo.png" alt="Logo: Sprössling über Dünenlinien">
+    <span>Privatpraxis für Psychotherapie<br><em>Elena Plastrotmann</em></span>
+  </a>
   <ul class="nav-links">
     <li><a href="#behandlung">Behandlung</a></li>
     <li><a href="#ueber-mich">Über mich</a></li>
@@ -31,16 +35,19 @@
   <!-- ================= HERO ================= -->
   <section class="hero">
     <div class="wrap hero-inner">
-      <p class="eyebrow">Herzlich willkommen</p>
-      <h1>Privatpraxis für<br>Psychotherapie</h1>
-      <p class="lede">Elena Plastrotmann · Lohmar</p>
-      <p class="intro">
+      <div class="hero-art-wrap">
+        <img src="assets/logo.png" alt="Logo der Praxis: Sprössling über Dünenlinien" style="width:9rem; height:9rem; display:block; margin:0 auto;">
+      </div>
+      <p class="eyebrow" style="text-align:center;">Herzlich willkommen</p>
+      <h1 style="text-align:center;">Privatpraxis für<br>Psychotherapie</h1>
+      <p class="lede" style="text-align:center;">Elena Plastrotmann · Lohmar</p>
+      <p class="intro" style="margin-left:auto; margin-right:auto; text-align:center;">
         Ich freue mich, Sie auf meiner Seite begrüßen zu dürfen. Auf dieser Homepage
         möchte ich Ihnen Informationen zum Thema Psychotherapie sowie zu meiner Praxis
         und Person geben. Ich biete tiefenpsychologische Psychotherapie für
         Privatversicherte, Beihilfeberechtigte und Selbstzahlende.
       </p>
-      <p class="notice">
+      <p class="notice" style="margin-left:auto; margin-right:auto;">
         Seit dem 01.10.2025 übernehme ich die Elternzeitvertretung der Praxis von
         Detelina Hölscher und habe in diesem Rahmen auch die Möglichkeit der
         Direktabrechnung mit den gesetzlichen Krankenversicherungen.
@@ -48,8 +55,21 @@
     </div>
   </section>
 
-  <!-- ================= FOTO-BAND ================= -->
-  <div class="photo-band">
+  <!-- ================= DÜNEN-LINIEN-BAND ================= -->
+  <div class="line-band">
+    <svg class="dunes" viewBox="0 0 1200 260" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
+      <path d="M-20,190 C120,140 220,220 360,170 C500,120 580,200 720,160 C860,120 960,190 1100,150 C1160,135 1190,145 1220,140"
+            fill="none" stroke="#2f3b28" stroke-width="1.6" opacity="0.5"/>
+      <path d="M-20,215 C140,175 250,235 400,200 C550,165 640,225 780,195 C920,165 1010,215 1160,185 C1190,178 1210,182 1220,180"
+            fill="none" stroke="#4c5f43" stroke-width="1.4" opacity="0.4"/>
+      <path d="M-20,235 C160,205 280,250 420,225 C560,200 660,245 800,220 C940,195 1040,235 1180,210 C1200,206 1210,208 1220,207"
+            fill="none" stroke="#b5764a" stroke-width="1.2" opacity="0.35"/>
+      <g transform="translate(600,95)">
+        <line x1="0" y1="0" x2="0" y2="55" stroke="#2f3b28" stroke-width="1.5"/>
+        <path d="M0,20 C-22,10 -32,-16 -28,-30 C-14,-24 -2,-6 0,20 Z" fill="none" stroke="#2f3b28" stroke-width="1.4"/>
+        <path d="M0,20 C22,10 32,-16 28,-30 C14,-24 2,-6 0,20 Z" fill="none" stroke="#2f3b28" stroke-width="1.4"/>
+      </g>
+    </svg>
     <div class="wrap">
       <p class="eyebrow">Ein ruhiger Raum</p>
       <blockquote>„Veränderung wird oft erst möglich, wenn wir begreifen, was uns im Inneren bewegt.“</blockquote>
@@ -105,7 +125,7 @@
       </div>
       <div class="portrait-layout reveal">
         <div class="portrait-frame">
-          <span class="tag">Foto folgt</span>
+          <img src="assets/logo.png" alt="Platzhalter" style="width:3.2rem; height:3.2rem; opacity:0.55;">
         </div>
         <div class="prose">
         <p>
@@ -195,9 +215,6 @@
     <a href="datenschutz.html">Datenschutz</a>
   </span>
 </footer>
-<p class="photo-credit" style="text-align:center; margin: -1.5rem 0 1.5rem;">
-  Fotos: Pascal Debrunner &amp; Ritam Baishya auf Unsplash
-</p>
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
