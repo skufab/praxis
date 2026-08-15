@@ -321,7 +321,7 @@ footer .legal-links { display: flex; gap: 1.2rem; }
   content: "";
   position: absolute;
   inset: 0;
-  background-image: url('https://images.unsplash.com/photo-1762755126280-6d8a4f9d1115?fm=jpg&q=60&w=2400&auto=format&fit=crop');
+  background-image: url('https://images.unsplash.com/photo-1771396308175-d099dd9755bd?fm=jpg&q=60&w=2400&auto=format&fit=crop');
   background-size: cover;
   background-position: center 30%;
   filter: grayscale(1) contrast(1.08);
