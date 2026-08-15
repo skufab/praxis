@@ -245,12 +245,13 @@ section { padding: clamp(3.5rem, 9vw, 7rem) var(--gutter); position: relative; }
 /* ---------- Rankender Keim: entfaltet sich beim Einblenden ---------- */
 .vine {
   position: absolute;
-  top: -1.2rem;
-  right: -0.6rem;
+  top: 0.6rem;
+  right: 0.6rem;
   width: clamp(6.5rem, 14vw, 10rem);
   height: auto;
   pointer-events: none;
   opacity: 0.85;
+  z-index: 1;
 }
 .vine path, .vine line {
   fill: none;
