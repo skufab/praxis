@@ -247,7 +247,7 @@ section { padding: clamp(3.5rem, 9vw, 7rem) var(--gutter); position: relative; }
   position: absolute;
   top: 0.6rem;
   right: 0.6rem;
-  width: clamp(6.5rem, 14vw, 10rem);
+  width: clamp(5rem, 18vw, 10rem);
   height: auto;
   pointer-events: none;
   opacity: 0.85;
@@ -287,7 +287,6 @@ section { padding: clamp(3.5rem, 9vw, 7rem) var(--gutter); position: relative; }
 .reveal.is-visible .vine .leaf-c { stroke-dashoffset: 0; transition-delay: 1.7s; }
 .reveal.is-visible .vine .leaf-d { stroke-dashoffset: 0; transition-delay: 2.0s; }
 .reveal.is-visible .vine .bud { opacity: 1; transform: scale(1); transition-delay: 2.5s; }
-@media (max-width: 30rem) { .vine { display: none; } }
 #behandlung { padding-top: clamp(1rem, 3vw, 2rem); }
 #behandlung .section-head h2 { color: var(--leaf-deep); }
 #behandlung .eyebrow { color: var(--leaf); }
