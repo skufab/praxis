@@ -3,25 +3,25 @@
    Design-System v2: editorial, ruhig, mit echter Tiefe & Bewegung
    ============================================================ */
 
-@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,440;0,9..144,560;0,9..144,680;1,9..144,440;1,9..144,560&family=Libre+Franklin:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,340;0,9..144,440;0,9..144,560;0,9..144,680;1,9..144,440;1,9..144,560&family=Karla:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
 
 :root {
-  --paper: #f2f1e9;
-  --paper-warm: #ebeadf;
-  --ink: #23261f;
-  --ink-soft: #575c50;
-  --moss: #4c5f43;
-  --moss-deep: #2f3b28;
-  --moss-light: #8ca179;
-  --clay: #b5764a;
-  --clay-soft: #d9a97e;
-  --sage-pale: #dde3d1;
-  --line: rgba(35, 38, 31, 0.12);
-  --glass: rgba(255, 255, 254, 0.55);
-  --glass-border: rgba(255, 255, 254, 0.7);
+  --paper: #f3ede1;
+  --paper-warm: #ece0cd;
+  --ink: #2c241c;
+  --ink-soft: #6d5c4a;
+  --moss: #b5603c;
+  --moss-deep: #7c3f27;
+  --moss-light: #d99569;
+  --clay: #a97a34;
+  --clay-soft: #d7b483;
+  --sage-pale: #e6d5b9;
+  --line: rgba(44, 36, 28, 0.13);
+  --glass: rgba(255, 252, 245, 0.55);
+  --glass-border: rgba(255, 252, 245, 0.72);
 
   --font-display: 'Fraunces', Georgia, serif;
-  --font-body: 'Libre Franklin', -apple-system, sans-serif;
+  --font-body: 'Karla', -apple-system, sans-serif;
 
   --measure: 40rem;
   --gutter: clamp(1.5rem, 5vw, 4.5rem);
